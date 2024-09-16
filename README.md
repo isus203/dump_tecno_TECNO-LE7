@@ -1,0 +1,20 @@
+## sys_tssi_64_tecno-user 11 RP1A.200720.011 320441 release-keys
+- Manufacturer: tecno mobile limited
+- Platform: mt6768
+- Codename: TECNO-LE7
+- Brand: TECNO
+- Flavor: sys_tssi_64_tecno-user
+- Release Version: 11
+- Kernel Version: 4.14.186
+- Id: RP1A.200720.011
+- Incremental: 220612V666
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/220610V523:user/release-keys
+- OTA version: 
+- Branch: sys_tssi_64_tecno-user-11-RP1A.200720.011-320441-release-keys
+- Repo: tecno_tecno-le7_dump

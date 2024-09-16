@@ -1,0 +1,6 @@
+on post-fs-data
+    #SPD: add LCQHLYYLR-3012 by bin.song 20200914 start
+    mkdir /data/performance 0771 system system encryption=None
+    mkdir /data/performance/gift 0771 system system encryption=None
+    copy /vendor/etc/arc.ini /data/performance/gift/arcdefault.ini
+    chown system system /data/performance/gift/arcdefault.ini

@@ -1,0 +1,5 @@
+on property:persist.sys.device_provisioned=1 && property:persist.sys.google.rlz_ap_whitelist=*
+    setprop ro.com.google.rlz_ap_whitelist ${persist.sys.google.rlz_ap_whitelist}
+
+on property:persist.sys.device_provisioned=1 && property:persist.sys.google.rlzbrandcode=*
+    setprop ro.com.google.rlzbrandcode ${persist.sys.google.rlzbrandcode}
